@@ -1,6 +1,6 @@
 # High-spatial-resolution gross primary production estimation from Sentinel-2 reflectance using hybrid Gaussian processes modeling
 
-(publication under review)
+*(under review)*
 
 ## Abstract
 High-spatial-resolution gross primary production (GPP) estimation is critical for local carbon monitoring, especially in heterogeneous landscapes where global products lack spatial detail. We present a hybrid modeling framework that estimates GPP using Sentinel-2 (S2) reflectance and Bayesian Gaussian Process Regression (GPR), chosen for its robustness with limited data and its ability to quantify uncertainty. GPR models were trained using SCOPE (Soil Canopy Observation of Photosynthesis and Energy fluxes) Radiative Transfer Model (RTM) simulations and optimized via active learning (AL) across 10 plant functional types (PFTs). These lightweight, PFT-specific S2-GPR models were implemented in Google Earth Engine (GEE) to enable scalable, reproducible, and accessible GPP mapping.
